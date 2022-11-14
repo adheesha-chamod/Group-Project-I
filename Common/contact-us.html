@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../Style/common.css">
+    <link rel="stylesheet" href="../Style/contact-us.css">
+</head>
+<body>
+    <div class="nav-bar">
+        <h2>TapToBus</h2>
+
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./terms-conditions.html">Terms & Conditions</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <div class="form">
+        <h1>Contact Us</h1>
+
+        <form action="#" method="#" validate>
+            <div class="name">
+                <label for="name">Name</label> <br>
+                <input type="text" name="name" id="name" placeholder="Enter name" required>
+            </div>
+
+            <div class="email">
+                <label for="email">Email</label> <br>
+                <input type="email" name="email" id="email" placeholder="Enter valid email" required>
+            </div>
+
+            <div class="mobile">
+                <label for="mobile">Mobile</label> <br>
+                <input type="text" name="mobile" id="mobile" placeholder="Enter valid mobile No" required>
+            </div>
+
+            <div class="subject">
+                <label for="subject">Subject</label> <br>
+                <select name="subject" id="subject" required>
+                    <option value="#">Select complaint subject</option>
+                    <option value="technical">Technical issue</option>
+                    <option value="payment">Payment issue</option>
+                    <option value="support">Support issue</option>
+                    <option value="other">Other</option>                 
+                </select>
+            </div>
+
+            <div class="msg">
+                <label for="msg">Message</label> <br>
+                <textarea rows="4" cols="50" name="msg" placeholder="Enter message here..."></textarea>
+            </div>
+
+            <div>
+                <a href="#"><button class="btn" type="submit"><span></span>Send</button></a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
