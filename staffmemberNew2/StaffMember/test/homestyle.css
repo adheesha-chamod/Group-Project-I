@@ -1,0 +1,418 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap'); */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e3e3e3;
+    font-family: sans-serif;
+    height: 100vh;
+    font-size: 15px;
+}
+
+.nav {
+
+    display: flex;
+    flex-direction: column;
+    background-color: #606060;
+    position: relative;
+}
+
+.icon_box {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-right: 5px;
+}
+
+.icons {
+    background-color: #606060;
+    color: rgb(163, 13, 13);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    height: 45px;
+    margin-right: 20px;
+}
+
+
+.icons>a {
+    margin-inline: 10px;
+}
+
+.icons>a {
+    color: #fff;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+.logout-btn {
+    margin: 10px 0;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.icons_nav {
+    display: flex;
+    align-items: center;
+}
+
+.icons_nav>a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+
+}
+
+.menu {
+    margin-top: 58px;
+}
+
+.menu_items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+
+}
+
+.menu_items_links {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.menu_items_links:hover {
+    color: #030303;
+    border-radius: 10px;
+}
+
+.menu_items_links_active {
+    background-color: #e3e3e3;
+    color: #0e0d0d;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.nav {
+    position: relative;
+}
+
+.nav-left {
+    position: absolute;
+    left: 0%;
+    top: 0;
+    max-height: 10px
+}
+
+img {
+    max-width: 28%;
+    aspect-ratio: 1.7;
+}
+
+/* ======  Home styles ======== */
+.container1 {
+    width: 100vw;
+    height: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.notice-container {
+    height: 100%;
+    /* background-color: blue; */
+}
+
+
+.calander-container {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(214, 222, 214);
+
+}
+
+.card {
+    width: 80%;
+    margin: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+.card>h3 {
+    padding-bottom: 1rem;
+}
+
+
+.add-notice {
+    width: 90%;
+    background-color: #cbcbcb;
+    color: #030303;
+    margin-top: 1rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.add-notice>button {
+    width: 100%;
+    border: none;
+    text-align: left;
+    padding: 10px 15px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.add-notice>button>i {
+    padding-right: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================================================================= */
+.grid {
+    display: grid;
+    grid-template-columns: 10fr 1fr;
+    grid-gap: 1rem;
+    margin-top: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.132);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.189);
+}
+
+.text-fields {
+    padding: 1rem;
+}
+
+
+.text-fields>form {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-fields>form>input {
+    margin: 0.5rem 0;
+    padding: 10px 15px;
+    border: none;
+    color: #000;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.141);
+}
+
+.text-fields>form>textarea {
+    min-height: 100px;
+    margin: 0.5rem 0;
+    padding: 10px 15px;
+    color: #000;
+    border: 1px solid rgba(0, 0, 0, 0.141);
+}
+
+.save-cancel-btns {
+    display: none;
+
+}
+
+.save-cancel-btns>button {
+    margin: 0.3rem 0;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.save-btn {
+    background-color: #019c32;
+    color: #fff;
+}
+
+.cancel-btn {
+    background-color: #ff0000;
+    color: #fff;
+}
+
+.edit-delete-btns {
+    margin: auto;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+
+.edit-delete-btns>button {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.edit-btn:hover {
+    background-color: #019c32;
+    color: #fff;
+}
+
+.delete-btn:hover {
+    background-color: #ff0000;
+    color: #fff;
+}
+
+/* =================================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .text-area {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100px;
+
+}
+
+.text-area>textarea {
+    width: 90%;
+}
+
+.text-area:hover>.edit-delete-icons {
+    display: flex;
+}
+
+.edit-delete-icons {
+    height: 80%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 1rem;
+    margin-left: 1rem;
+}
+
+.edit-delete-icons>button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.edit-icon {
+    color: rgb(30, 147, 59);
+}
+
+.delete-icon {
+    color: rgb(163, 13, 13);
+}
+
+
+
+
+.btn-back {
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+
+}
+
+.btn-back>button {
+    text-decoration: none;
+    border: none;
+    background: transparent;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: none;
+}
+
+.btn-back>button:nth-child(1) {
+    background-color: rgb(30, 147, 59);
+}
+
+.btn-back>button:nth-child(2) {
+    background-color: rgb(217, 46, 46);
+}
+
+
+.notice {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 300px;
+}
+
+.notice>input[type="text"] {
+    width: 100%;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.174);
+    border-radius: 5px;
+    padding: 5px;
+
+    outline: none;
+}
+
+.notice>textarea {
+    width: 100%;
+    height: ;
+    border: 1px solid rgba(0, 0, 0, 0.174);
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+} */
