@@ -1,0 +1,113 @@
+body {
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(
+                        rgba(0,0,0,0.75), 
+                        rgba(0,0,0,0.75)
+                    ), 
+                    url(../img/terms-conditions-background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    margin: auto;
+    padding: 15px 25px 0 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar h2 {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.navbar h2:hover {
+    color: #00BFFF;
+    transition: 0.5s;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 0 0 20px;
+    
+    position: relative;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #00BFFF;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+}
+
+.content {
+    color: white;
+    text-align: justify;
+    padding: 25px 35px 25px 35px;
+}
+
+.content h1{
+    font-size: 28px;
+}
+
+.content h2 {
+    font-size: 18px;
+    padding: 15px 0 7px 0;
+}
+
+.content ul {
+    margin-left: 5px;
+}
+
+.content li {
+    padding: 0 0 7px 0;
+}
+
+.content table, th, td {
+    border: 1px solid white;
+}
+
+.content table {
+    border-collapse: collapse;
+    margin: 10px 5px 17px;
+}
+
+.content td {
+    padding: 5px;
+}
+
+.content .a {
+    width: 35%;
+}
+
+.content .b {
+    text-align: center;
+}
+
+.footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 15px 0 15px 0;
+    line-height: 25px;
+    font-size: 15px;
+}
