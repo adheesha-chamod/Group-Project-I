@@ -1,0 +1,154 @@
+.left {
+    width: 50%;
+    height: 100vh;
+    background-image: linear-gradient(
+                    rgba(0,0,0,0.60), 
+                    rgba(0,0,0,0.60)
+                    ), 
+                    url(../img/signup-type-background.jpg);
+    background-size: cover;
+    background-position: left;
+    display: inline-block;
+}
+
+.left a {
+    text-decoration: none;
+    color: white;
+}
+
+.left a:hover {
+    color: #00BFFF;
+    transition: 0.5s;
+}
+
+.left h2 {
+    text-align: center;
+    padding: 20px 10px 20px 10px;
+}
+
+.left p {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    transform: translateX(-50%);
+    text-align: center;
+    padding: 20px 10px 20px 10px;
+}
+
+.right {
+    width: 50%;
+    background-color: rgb(240, 240, 240);
+    position: absolute;
+    display: inline-block;
+    height: 100vh;
+}
+
+.box {
+    background: white;
+    width: 50%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    padding: 30px 35px 30px 35px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box h2 {
+    text-align: center;
+    margin: 0 5px 5px 5px;
+    padding: 0 10px 20px 10px;
+}
+
+.box label {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.box select {
+    width: 100%;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+    height: 40px;
+    font-size: 15px;
+    margin: 0 0 5px 0;
+    cursor: pointer;
+    
+    outline: none;
+}
+
+.box .help {
+    color: blue;
+    text-align: right;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.box .help:hover {
+    color: red;
+}
+
+.box .field {
+    margin: 20px 0 5px 0;
+}
+
+.box button {
+    width: 80%;
+    height: 40px;
+    text-align: center;
+    margin: 25px 0 20px 0;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid black;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+}
+
+.box span {
+    background: black;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.box button:hover span {
+    width: 100%;
+}
+
+.box button:hover {
+    border: none;
+    color: white;
+}
+
+.box .link {
+    margin-top: 5px;
+}
+
+.box .link p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.box .link a {
+    text-decoration: none;
+    color: blue;
+}
+
+.box .link a:hover {
+    color: red;
+}

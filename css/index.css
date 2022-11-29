@@ -113,5 +113,5 @@ body {
 }
 
 .content button:hover {
-    border: 2px solid transparent;
+    border: none
 }

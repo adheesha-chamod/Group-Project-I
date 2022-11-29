@@ -2,8 +2,8 @@ body {
     width: 100%;
     height: auto;
     background-image: linear-gradient(
-                        rgba(0,0,0,0.75), 
-                        rgba(0,0,0,0.75)
+                        rgba(0,0,0,0.65), 
+                        rgba(0,0,0,0.65)
                     ), 
                     url(../img/contact-us-background.jpg);
     background-size: cover;
@@ -67,7 +67,7 @@ body {
 
 .content h1 {
     font-size: 28px;
-    padding: 0 0 15px 0;
+    padding: 0 0 35px 0;
 }
 
 .content form label {
@@ -81,7 +81,7 @@ body {
     border: none;
     background: transparent;
     border-bottom: 1px solid white;
-    height: 40px;
+    height: 35px;
     color: white;
     font-size: 15px;
     

@@ -1,0 +1,194 @@
+.left {
+    width: 50%;
+    height: 100vh;
+    background-image: linear-gradient(
+                    rgba(0,0,0,0.60), 
+                    rgba(0,0,0,0.60)
+                    ), 
+                    url(../../img/passenger/signup-form-background.jpg);
+    background-size: cover;
+    background-position: left;
+    display: inline-block;
+}
+
+.left a {
+    text-decoration: none;
+    color: white;
+}
+
+.left a:hover {
+    color: #00BFFF;
+    transition: 0.5s;
+}
+
+.left h2 {
+    text-align: center;
+    padding: 20px 10px 20px 10px;
+}
+
+.left p {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    transform: translateX(-50%);
+    text-align: center;
+    padding: 20px 10px 20px 10px;
+}
+
+.right {
+    width: 50%;
+    background-color: rgb(240, 240, 240);
+    position: absolute;
+    display: inline-block;
+    height: 100vh;
+}
+
+.box {
+    background: white;
+    width: 90%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    padding: 30px 50px 30px 50px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box h2 {
+    text-align: center;
+    margin: 0 5px 5px 5px;
+    padding: 0 10px 20px 10px;
+}
+
+.box .fname, 
+.lname, 
+.nic, 
+.mobile, 
+.email, 
+.pwd, 
+.confirm-pwd label {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.box input[type=text], 
+input[type=tel], 
+input[type=email], 
+input[type=password] {
+    width: 100%;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+    height: 35px;
+    font-size: 15px;
+    margin: 0 0 25px 0;
+    
+    outline: none;
+}
+
+.box .fname, 
+.lname,  
+.mobile, 
+.email, 
+.pwd, 
+.confirm-pwd {
+    width: 45%;
+    display: inline-block;
+}
+
+.box .nic {
+    width: 45%;
+}
+
+.box .fname,
+.mobile,
+.pwd {
+    padding-right: 10px;
+    margin-right: 13px;
+}
+
+.box .lname,
+.email,
+.confirm-pwd {
+    padding-left: 10px;
+    margin-left: 13px;
+}
+
+.box input[type=checkbox] {
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.box .checkbox {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.box .checkbox a {
+    text-decoration: none;
+    color: blue;
+}
+
+.box .checkbox a:hover {
+    color: red;
+}
+
+.box button {
+    width: 40%;
+    height: 40px;
+    text-align: center;
+    margin: 25px 0 20px 0;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid black;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+}
+
+.box span {
+    background: black;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.box button:hover span {
+    width: 100%;
+}
+
+.box button:hover {
+    border: none;
+    color: white;
+}
+
+.box .link {
+    margin-top: 5px;
+}
+
+.box .link p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.box .link a {
+    text-decoration: none;
+    color: blue;
+}
+
+.box .link a:hover {
+    color: red;
+}
