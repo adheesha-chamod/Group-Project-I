@@ -1,16 +1,3 @@
-<?php
-    if($_SERVER["REQUEST_METHOD"] == "POST"){
-        $type = $_POST["type"];
-
-        if($type == "passenger"){
-            header("Location: Passenger/signup-form.php");
-        }else if($type == "owner"){
-            header("Location: Owner/signup-form.php");
-        }
-    }
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,14 +21,15 @@
         <div class="box">
             <h2>Sign up</h2>
 
-            <form method="post">
+            <form action="./process/signup-type.php" method="post" onsubmit="return isSelected()" novalidate>
                 <div class="field">
                     <label for="type">Type</label> <br>
-                    <select name="type">
+                    <select name="type" id="type">
                         <option value="" disabled selected>Select your type</option>
                         <option value="passenger">Passenger</option>
                         <option value="owner">Bus Owner</option>
                     </select>
+                    <p class="error"><i id="error"></i></p>
                     <p class="help" >Need help?</p>
                 </div>
 
@@ -55,5 +43,7 @@
             </div>
         </div>
     </div>
+
+    <script src="./js/signup-type.js"></script>
 </body>
 </html>

@@ -1,14 +1,65 @@
 body {
     width: 100%;
     background: rgb(240, 240, 240);
+    height: auto;
 }
+
+/*.navbar {
+    margin: auto;
+    padding: 15px 25px 20px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: black;
+}
+
+.navbar h2 {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.navbar h2:hover {
+    color: #00BFFF;
+    transition: 0.5s;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 0 0 20px;
+    
+    position: relative;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #00BFFF;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+}*/
 
 .box {
     width: 30%;
     height: auto;
     background-color: white;
     position: absolute;
-    top: 50%;
+    top: 43%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 20px;
@@ -118,4 +169,16 @@ body {
 .box button:hover {
     border: none;
     color: white;
+}
+
+.footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 15px 0 15px 0;
+    line-height: 25px;
+    font-size: 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }

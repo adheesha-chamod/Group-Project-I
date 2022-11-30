@@ -62,7 +62,7 @@ body {
 .content {
     color: white;
     text-align: justify;
-    padding: 25px 35px 25px 35px;
+    padding: 25px 35px 40px 35px;
 }
 
 .content h1 {
@@ -76,8 +76,8 @@ body {
 }
 
 .content form input {
-    width: 35%;
-    margin: 0 0 25px 0;
+    width: 100%;
+    /*margin: 0 0 25px 0;*/
     border: none;
     background: transparent;
     border-bottom: 1px solid white;
@@ -89,8 +89,8 @@ body {
 }
 
 .content form select {
-    width: 35%;
-    margin: 0 0 25px 0;
+    width: 100%;
+    /*margin: 0 0 25px 0;*/
     border: none;
     background: transparent;
     border-bottom: 1px solid white;
@@ -107,8 +107,8 @@ body {
 }
 
 .content form textarea {
-    width: 35%;
-    margin: 10px 0 25px 0;
+    width: 100%;
+    margin: 10px 0 0 0;
     border: none;
     background: transparent;
     border-bottom: 1px solid white;
@@ -119,11 +119,26 @@ body {
     outline: none;
 }
 
+.name,
+.email,
+.mobile,
+.sub,
+.msg {
+    margin: 0 0 25px 0;
+    width: 35%;
+}
+
+.content .error {
+    font-size: 14px;
+    text-align: right;
+    margin-top: 3px;
+}
+
 .content form button {
     width: 200px;
     padding: 15px 0 15px 0;
     text-align: center;
-    margin: 10px 0 10px 0;
+    margin: 15px 0 10px 0;
     border-radius: 25px;
     font-weight: bold;
     border: 2px solid #00BFFF;

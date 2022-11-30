@@ -83,6 +83,11 @@
     outline: none;
 }
 
+.box .error {
+    color: red;
+    font-size: 14px;
+}
+
 .box .help {
     color: blue;
     text-align: right;

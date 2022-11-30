@@ -21,7 +21,7 @@
         <div class="box">
             <h2>Log in</h2>
 
-            <form method="post">
+            <form name="login-form" method="post">
                 <div class="type">
                     <label for="type">Type</label> <br>
                     <select name="type">
@@ -29,17 +29,20 @@
                         <option value="passenger">Passenger</option>
                         <option value="other">Other</option>
                     </select>
+                    <p class="error"><i id="type-error"></i></p>
                 </div>
 
                 <div class="username">
                     <label for="username">Username</label> <br>
                     <input type="email" name="username" placeholder="Enter your email" maxlength="100">
+                    <p class="error"><i id="username-error"></i></p>
                 </div>
 
                 <div class="pwd">
                     <label for="pwd">Password</label> <br>
                     <input type="password" name="pwd" placeholder="Enter your password" maxlength="8">
-                    <p><a href="./forgot-pwd.php">Forgot password?</a></p>
+                    <p class="error"><i id="pwd-error"></i></p>
+                    <p class="forgot-pwd-link"><a href="./forgot-pwd.php">Forgot password?</a></p>
                     <!--<div class="link">
                         <p class="help">Need help?</p>
                         <p>or</p>
@@ -50,7 +53,7 @@
                 <div class="btn">
                     <button><span></span>Log in</button>
                 </div>
-            </form>
+            </form> 
 
             <div class="link">
                 <p>Don't have an account? <a href="./signup-type.php">Sign up</a></p>

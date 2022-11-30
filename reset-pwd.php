@@ -9,6 +9,16 @@
     <title>Reset Password</title>
 </head>
 <body>
+    <!--<div class="navbar">
+        <h2>TapToBus</h2>
+
+        <ul>
+            <li><a href="./index.php">Home</a></li>
+            <li><a href="./terms-conditions.php">Terms & Conditions</a></li>
+            <li><a href="./contact-us.php">Contact Us</a></li>
+        </ul>
+    </div>-->
+
     <div class="box">
         <h2>Reset Password</h2>
 
@@ -47,6 +57,11 @@
                 <button><span></span>Submit</button>
             </div>
         </form>
+    </div>
+
+    <div class="footer">
+        <p>© 2022, All rights reserved by TapToBus Cooperation Pvt. Ltd.<br>
+            No: 1001, Reid Avenue, Colombo 7, Sri Lanka.</p>
     </div>
 </body>
 </html>

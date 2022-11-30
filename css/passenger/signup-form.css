@@ -86,7 +86,6 @@ input[type=password] {
     border-bottom: 1px solid black;
     height: 35px;
     font-size: 15px;
-    margin: 0 0 25px 0;
     
     outline: none;
 }
@@ -99,10 +98,12 @@ input[type=password] {
 .confirm-pwd {
     width: 45%;
     display: inline-block;
+    margin: 0 0 25px 0;
 }
 
 .box .nic {
     width: 45%;
+    margin: 0 0 25px 0;
 }
 
 .box .fname,
@@ -119,13 +120,19 @@ input[type=password] {
     margin-left: 13px;
 }
 
+.box .error {
+    font-size: 14px;
+    color: red;
+    font-weight: 100;
+    margin-top: 3px;
+}
+
 .box input[type=checkbox] {
     cursor: pointer;
     margin-right: 5px;
 }
 
 .box .checkbox {
-    margin-top: 10px;
     font-size: 16px;
 }
 
@@ -142,7 +149,7 @@ input[type=password] {
     width: 40%;
     height: 40px;
     text-align: center;
-    margin: 25px 0 20px 0;
+    margin: 25px 0 15px 0;
     border-radius: 25px;
     font-weight: bold;
     border: 2px solid black;

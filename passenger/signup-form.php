@@ -21,47 +21,55 @@
         <div class="box">
             <h2>Sign up</h2>
 
-            <form method="post">
+            <form name="signup-form" action="../process/passenger/signup-form.php" method="post">
                 <div class="fname">
                     <label for="fname">First name</label> <br>
                     <input type="text" name="fname" placeholder="Enter your first name" maxlength="25">
+                    <p class="error"><i id="fname-error"></i></p>
                 </div>
 
                 <div class="lname">
                     <label for="lname">Last name</label> <br>
                     <input type="text" name="lname" placeholder="Enter your last name" maxlength="25">
+                    <p class="error"><i id="lname-error"></i></p>
                 </div>
 
                 <div class="nic">
                     <label for="nic">NIC</label> <br>
                     <input type="text" name="nic" placeholder="Enter your NIC No" maxlength="10">
-                    <!--only consider old nic cards-->
+                    <!--only consider old nic-->
+                    <p class="error"><i id="nic-error"></i></p>
                 </div>
 
                 <div class="mobile">
                     <label for="mobile">Mobile No</label> <br>
                     <input type="tel" name="mobile" placeholder="Enter your mobile no" maxlength="10">
+                    <p class="error"><i id="mobile-error"></i></p>
                 </div>
 
                 <div class="email">
                     <label for="email">Email</label> <br>
                     <input type="email" name="email" placeholder="Enter your email" maxlength="100">
+                    <p class="error"><i id="email-error"></i></p>
                 </div>
 
                 <div class="pwd">
                     <label for="pwd">Password</label> <br>
                     <input type="password" name="pwd" placeholder="Enter a password" maxlength="8">
+                    <p class="error"><i id="pwd-error"></i></p>
                 </div>
 
                 <div class="confirm-pwd">
                     <label for="confirm-pwd">Confirm password</label> <br>
                     <input type="password" name="confirm-pwd" placeholder="Re-enter the password" maxlength="8">
+                    <p class="error"><i id="confirm-pwd-error"></i></p>
                 </div>
 
                 <div class="checkbox">
                     <input type="checkbox" name="checkbox" value="checked">
                     <label for="checkbox">By signing up, I agree to TapToBus's 
                         <a href="../terms-conditions.php">Terms & Conditions</a>.</label>
+                    <p class="error"><i id="checkbox-error"></i></p>
                 </div>
 
                 <div class="btn">

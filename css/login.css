@@ -78,7 +78,6 @@
     height: 40px;
     font-size: 15px;
     cursor: pointer;
-    margin: 0 0 5px 0;
     
     outline: none;
 }
@@ -90,7 +89,7 @@
     border-bottom: 1px solid black;
     height: 40px;
     font-size: 15px;
-    margin: 0 0 5px 0;
+    margin: 0 0 0 0;
     
     outline: none;
 }
@@ -98,7 +97,7 @@
 .box .type,
 .username,
 .pwd {
-    margin: 0 0 20px 0;
+    margin: 0 0 25px 0;
 }
 
 .box .pwd a {
@@ -106,9 +105,10 @@
     text-decoration: none;
 }
 
-.box .pwd p {
+.box .pwd .forgot-pwd-link {
     text-align: right;
     font-size: 14px;
+    
 }
 
 .box .pwd a:hover {
@@ -140,6 +140,12 @@
 .box .pwd .link .forgot-pwd:hover {
     color: red;
 }*/
+
+.box .error {
+    font-size: 14px;
+    color: red;
+    margin-top: 3px;
+}
 
 .box button {
     width: 65%;
